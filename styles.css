@@ -17,16 +17,7 @@ p {
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
-button {
-  background-color: #008000;
 
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
 .tables {
   background-color: white;
   display: grid;
@@ -36,8 +27,10 @@ button {
   width: 250px;
   height: 210px;
   padding-top: 22px;
+  border-radius: 5px;
   justify-content: center ;
   margin: auto;
+
 }
 
 .table {
@@ -53,14 +46,13 @@ button {
 
 .reservations {
   background-color: white;
-  text-align: center;
-  vertical-align: center;
   width: 250px;
-  height: 250px;
   margin: auto;
   display: none;
   position: relative;
   top:-230px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .reservations.show {
@@ -78,9 +70,22 @@ button {
   background-color: #008000;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 3px 112px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#xbutton{
+  float: right;
+  border: none;
+}
+
+#Name, #Phone, #NumberofPeople{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 240px;
 }

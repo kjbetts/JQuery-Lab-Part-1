@@ -9,6 +9,10 @@ $(document).ready(function() {
   $(".reservations").toggleClass("show")
   })
 
+  //when click on x hide the form
+$("#xbutton").on("click", function(){
+  $(".reservations").removeClass("show")
+})
 
 
 
